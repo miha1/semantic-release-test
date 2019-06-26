@@ -8,9 +8,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/miha1/semantic-release-test.git"
+    "url": "git+https://github.com/miha1/semantic-release-test.git"
   },
   "devDependencies": {
+    "semantic-release/commit-analyzer": "^6.2.0",
     "semantic-release": "^15.13.17",
     "semantic-release-slack-bot": "^1.1.2"
   },
