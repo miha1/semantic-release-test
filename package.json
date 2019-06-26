@@ -1,8 +1,8 @@
 {
-  "name": "@miha1/semantic-release-test",
+  "name": "semantic-release-test",
   "version": "0.0.0-development",
   "description": "A test repo for semantic release",
-  "main": "index.js",
+  "main": "index.php",
   "scripts": {
     "semantic-release": "semantic-release"
   },

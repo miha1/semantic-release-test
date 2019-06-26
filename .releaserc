@@ -3,14 +3,24 @@
     "branch": "master"
   },
   "plugins": [
-  		"@semantic-release/commit-analyzer",
-  		"@semantic-release/release-notes-generator",
-  		[
-  			"semantic-release-slack-bot",
-  			{
-  				"notifyOnSuccess": false,
-  				"notifyOnFail": true
-  			}
-  		]
-  	]
+    [
+      "@semantic-release/commit-analyzer",
+      {
+        "preset": "eslint"
+      }
+    ],
+    [
+      "@semantic-release/release-notes-generator",
+      {
+        "preset": "eslint"
+      }
+    ],
+    [
+      "semantic-release-slack-bot",
+      {
+        "notifyOnSuccess": true,
+        "notifyOnFail": true
+      }
+    ]
+  ]
 }
