@@ -14,6 +14,5 @@ jobs:
         script:
           # Use nvm to install and use the Node LTS version (nvm is installed on all Travis images)
           - composer install
-          - npm install
-          - nvm install --lts
+          - npm install --only=dev
           - npx semantic-release
