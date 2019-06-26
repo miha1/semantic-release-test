@@ -11,7 +11,8 @@
     "url": "https://github.com/miha1/semantic-release-test.git"
   },
   "devDependencies": {
-    "semantic-release": "^15.13.17"
+    "semantic-release": "^15.13.17",
+    "semantic-release-slack-bot": "^1.1.2"
   },
   "bugs": {
     "url": "https://github.com/miha1/semantic-release-test/issues"
