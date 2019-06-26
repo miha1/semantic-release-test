@@ -1,0 +1,14 @@
+{
+    "name": "mihael.lovrencic/semantic-release-test",
+    "type": "project",
+    "license": "GPLv3",
+    "authors": [
+        {
+            "name": "Mihael Lovrencic",
+            "email": "mihael.lovrencic@wirecard.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^8.2"
+    }
+}
