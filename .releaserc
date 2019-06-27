@@ -3,6 +3,9 @@
     "branch": "master"
   },
   "plugins": [
+  ["@semantic-release/github",{
+  }
+  ],
     [
       "@semantic-release/commit-analyzer",
       {
