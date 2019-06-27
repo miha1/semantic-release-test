@@ -6,11 +6,25 @@
     [
       "@semantic-release/commit-analyzer",
       {
+        "preset": "eslint"
       }
     ],
     [
       "@semantic-release/release-notes-generator",
       {
+        "preset": "eslint",
+        "writerOpts": {
+          "commitsSort": [
+            "subject",
+            "scope"
+          ]
+        }
+      }
+    ],
+    [
+      "@semantic-release/exec",
+      {
+        "prepareCmd": "bin/prepare-release.sh ${nextRelease.version}"
       }
     ],
     [
