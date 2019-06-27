@@ -22,9 +22,9 @@
       }
     ],
     [
-      "@semantic-release/exec",
+      "bumper",
       {
-        "prepareCmd": "bin/prepare-release.sh ${nextRelease.version}"
+        "file": "VERSION"
       }
     ],
     [

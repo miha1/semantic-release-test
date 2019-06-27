@@ -12,10 +12,11 @@
   },
   "devDependencies": {
     "@semantic-release/commit-analyzer": "^6.2.0",
-    "@semantic-release/exec": "^3.3.5",
     "@semantic-release/github": "^5.4.0",
+    "bumper": "github:miha1/bumper",
     "conventional-changelog-eslint": "^3.0.1",
-    "conventional-recommended-bump": "^5.0.0",
+    "lodash": "^4.17.11",
+    "lodash.castarray": "^4.4.0",
     "semantic-release": "^15.13.17",
     "semantic-release-slack-bot": "^1.1.2"
   },
