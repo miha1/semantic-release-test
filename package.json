@@ -15,6 +15,7 @@
     "@semantic-release/github": "^5.4.0",
     "bumper": "github:miha1/bumper",
     "conventional-changelog-eslint": "^3.0.1",
+    "git-commit-push-via-github-api": "^1.0.2",
     "lodash": "^4.17.11",
     "lodash.castarray": "^4.4.0",
     "semantic-release": "^15.13.17",
